@@ -1,0 +1,130 @@
+
+body{
+    overflow-x: hidden;
+    margin:0;
+    width:100%;
+
+    /* // #f8f9fa; */
+}
+ header{
+     margin-bottom:100px;
+     width:100%;
+     margin-left: 0px;
+    margin-right: 0px;
+     
+ }
+
+ /* .head1{
+  font-size:40px;
+  margin-top:10px;
+  text-align: center;
+  background-color: green;
+} */
+ .head2{
+    text-align: center;
+}
+/* .flt{
+    float:right;
+    text-indent: 10px;
+    margin-left:20px;
+    
+} */
+  #cont{
+    /* width: 500px; */
+    min-height: 300px;
+    /* background-color:  #dbdfe5; */
+    /* margin-top:80px; */
+    /* margin-right:10px;
+    margin-left:25px; */
+    margin-bottom:150px;
+   
+  }
+  
+
+  .row {
+ 
+  display: grid;
+  /* create divs 3X3 grids */
+  grid-template-columns: repeat(3, 300px); 
+  grid-gap: 15px;
+  margin-top:80px;
+  /* border: 3px solid green; */
+  padding: 10px;
+  /* align-items: center;  */
+  /* justify-content: center;  */
+    
+  }
+  
+  /* Create four equal columns */
+  .column {
+    height: 300px;
+    border-radius: 3px;
+    margin-bottom:100px;
+    /* margin-top:100px; */
+    /* margin: auto; */
+  }
+  .row > div {
+    margin: 6px;
+    margin-bottom:60px;
+  }
+  
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 400px) {
+    .column {
+      /* flex: 100%; */
+      grid-template-columns: 100% 100%;
+    }
+  }  
+  #c1,#c5, #c9, #c13{
+    /* background-color: #118ab2; */
+    background-color: #bc6c25;
+  }
+  #c2, #c6, #c10, #c14{
+    /* background-color: #118ab2; */
+    background-color: #dda15e;
+  }
+  #c3, #c7, #c11, #c15{
+    background-color:  #435a7c;
+  }
+  #c4, #c8, #c12, #c16{
+    background-color:  #435e237c;
+  }
+  img{
+    max-width:100%;
+    max-height:100%;
+  }
+  .cdbutton{
+    border: none;
+    outline: 0;
+    /* padding: 12px; */
+    color: white;
+    background-color: #000;
+    text-align: right;
+    cursor: pointer;
+    /* width: 100%; */
+    font-size: 10px;
+  }
+
+  #footer { 
+    padding-bottom: 10px;
+    background-color: #97CAEB;
+    text-align: center;
+    height:50px;
+    width:100%;
+    /* forces footer to remain at the bottom of the page */
+    bottom: 0;
+    position:fixed;
+    }
+  #footer > section{
+    font-size: 15px; 
+  }
+
+  .content-wrapper {
+    width: 1050px;
+    margin: 0 auto;
+  }
+  .product .price {
+    display: block;
+    font-size: 22px;
+    color: #999999;
+  }
