@@ -1,2 +1,2 @@
 # Salvage
-Ecommerce website 
+Ecommerce website(PHP, HTML/CSS, Javascript)
